@@ -1,10 +1,20 @@
 
-.bg-profile {
+.bg-profile{
     width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    height: 80%;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 80%;
+    position: relative;
+}
+
+.profile-overlay{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    border-radius: 80%;
 }
 
 .center-info{
@@ -43,13 +53,23 @@
 }
 
 .download-btn{
+    a{
+        text-decoration: none;
+        color: black;
+    }
     margin-right: 1rem;
     color: var(--color-main-font);
 }
 
+
+
 .download-btn:hover,
 .download-btn:focus,
 .download-btn:active{
+    a{
+        text-decoration: none;
+        color: white;
+    }
     margin-right: 1rem;
     background-color: black;
     transform: scale(1.2);
