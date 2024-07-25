@@ -8,13 +8,9 @@ import { Router } from '@angular/router';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private _routes : Router) { }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  oniconstoskills(){
-    window.scroll()
   }
 
 }
