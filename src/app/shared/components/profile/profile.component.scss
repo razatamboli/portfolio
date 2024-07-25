@@ -1,0 +1,74 @@
+
+.bg-profile {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.center-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hey-info{
+    color: var(--color-semi-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.name-info{
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--color-main-font);
+}
+
+.posi-info{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-semi-font);
+}
+
+.two-btns{
+    margin: 0 1rem 1rem 1rem;
+}
+
+.btn2{
+    border: 0.1rem solid var(--color-semi-font);
+    height: 3rem;
+    border-radius: 1.5rem;
+}
+
+.download-btn{
+    margin-right: 1rem;
+    color: var(--color-main-font);
+}
+
+.download-btn:hover,
+.download-btn:focus,
+.download-btn:active{
+    margin-right: 1rem;
+    background-color: black;
+    transform: scale(1.2);
+    color: white;
+    transition: all .7s ease-in-out;
+}
+
+.contact-btn{
+    margin-left: 1rem;
+    background-color: var(--color-main-font);
+    color: white;
+}
+
+.contact-btn:hover,
+.contact-btn:focus,
+.contact-btn:active{
+    margin-left: 1rem;
+    background-color: white;
+    color: var(--color-main-font);
+    transform: scale(1.2);
+    transition: all .7s ease-in-out;
+}
