@@ -18,6 +18,13 @@ html{
     scroll-behavior: smooth;
 }
 
+.black-theme{
+    padding: 1rem;
+    background-color: var(--color-semi-font);
+    color: var(--color-white);
+    border-radius: 1rem;
+}
+
 // arrow
 
 .arrow-down-exp{

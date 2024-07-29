@@ -1,8 +1,4 @@
 
-.contact-margin{
-    
-}
-
 .card{
     border: 0.1rem solid;
     border-radius: 1rem;
@@ -19,6 +15,9 @@
     text-decoration: underline;
 }
 
+.mobile{
+    text-decoration: none;
+}
 
 .card1{
     font-size: 2rem;
@@ -26,8 +25,8 @@
 }
 
 .card2{
-    font-size: 1.5rem;
-    color: var(--color-semi-font);
+    // font-size: 1.5rem;
+    color: white;
 }
 
 // navbar
