@@ -58,6 +58,10 @@
     margin-bottom: 1.5rem;
 }
 
+.mb-forMobile{
+    margin-bottom: 10rem;
+}
+
 @keyframes anime-list {
     0%{
         transform: translateY(0%);
@@ -70,6 +74,16 @@
 @media all and (max-width : 668px){
     .mb-forMobile{
         margin-bottom: 10rem;
+    }
+    .ul-list-lineheight{
+        height: 3rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media all and (min-width : 668px){
+    .mb-forMobile{
+        margin-bottom: 12rem;
     }
     .ul-list-lineheight{
         height: 3rem;

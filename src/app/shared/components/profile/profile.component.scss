@@ -92,3 +92,9 @@
     transform: scale(1.2);
     transition: all .7s ease-in-out;
 }
+
+@media all and (max-width: 992px){
+    .download-btn{
+        padding-top: 0;
+    }
+}

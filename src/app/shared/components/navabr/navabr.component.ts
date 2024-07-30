@@ -12,10 +12,11 @@ export class NavabrComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onNavbarToggle(eve : HTMLDivElement,btn : HTMLButtonElement,crossBtn : HTMLDivElement){
-    eve.classList.toggle("collapse");
+  onNavbarToggle(navToggle : HTMLDivElement,btn : HTMLButtonElement,crossBtn : HTMLDivElement){
+    navToggle.classList.toggle("collapse");
     btn.classList.toggle("toggler-navbar");
     crossBtn.classList.toggle("d-none");
+    navToggle.classList.toggle("mb-forMobile")
   }
 
 }
