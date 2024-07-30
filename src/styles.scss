@@ -25,18 +25,6 @@ html{
     border-radius: 1rem;
 }
 
-// arrow
-
-.arrow-down-exp{
-    position: relative;
-    .arrow{
-        position : absolute;
-        bottom: 50vh;
-        right: 5%;
-        cursor: pointer;
-    }
-}
-
 @keyframes scroll-smooth {
     0%{
         opacity: 0;

@@ -98,3 +98,35 @@
         padding-top: 0;
     }
 }
+
+// upside-arrow
+
+.arrow-icon{
+    padding: 0.2rem;
+    text-decoration: none;
+    color: var(--color-main-font);
+}
+
+.arrow-icon:hover,
+.arrow-icon:focus,
+.arrow-icon:active{
+    padding: 0.2rem;
+    text-decoration: none;
+    border: 0.1rem solid;
+    border-radius: 25%;
+    color: var(--color-main-font);
+    transform: scale(1.1);
+    transition: all 0.4s linear;
+}
+
+.visible{
+    position: fixed;
+    right: 25px;
+    bottom: 50px;
+}
+
+@media all and (max-width: 1050px) {
+    .visible{
+        display: none;
+    }
+}
