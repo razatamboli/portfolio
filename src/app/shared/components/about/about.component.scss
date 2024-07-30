@@ -1,11 +1,11 @@
 
 .about-section{
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
 .getknowandabout-info{
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .getknow{
@@ -19,11 +19,9 @@
     color: var(--color-main-font);
 }
 
-.about-photo{
+.info-container{
     width: 100%;
-    height: 380px;
-    object-fit: cover;
-    border: 0.1rem solid var(--color-main-font);
+    height: 100%;
 }
 
 // img-profile-photo
@@ -56,6 +54,18 @@
 // for margins lasts-ups and section down
 
 .info-exp{
-    margin: 0 0 4rem 0;
     font-size: 1rem;
+}
+
+.margin-bottom{
+    margin-bottom: 8rem;
+}
+
+@media all and (max-width: 667px) {
+    .info-exp{
+        margin-bottom: 3rem;
+    }
+    .margin-bottom{
+        margin-bottom: 1rem;
+    }
 }

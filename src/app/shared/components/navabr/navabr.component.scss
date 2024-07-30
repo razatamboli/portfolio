@@ -66,3 +66,13 @@
         transform: translateY(-5px);
     }
 }
+
+@media all and (max-width : 668px){
+    .mb-forMobile{
+        margin-bottom: 10rem;
+    }
+    .ul-list-lineheight{
+        height: 3rem;
+        line-height: 2.5rem;
+    }
+}
