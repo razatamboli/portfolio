@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+    --color-white : white;
+    --color-black : black;
+    --color-bg : white;
+    --color-semi-font : rgba(85,85,85);
+    --color-main-font : black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;     
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.black-theme{
+    padding: 1rem;
+    background-color: var(--color-semi-font);
+    color: var(--color-white);
+    border-radius: 1rem;
+}
+
+@keyframes scroll-smooth {
+    0%{
+        opacity: 0;
+        scale: 0.5;
+    }100%{
+        opacity: 1;
+        scale: 1;
+    }
+}

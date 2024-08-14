@@ -1,0 +1,100 @@
+
+.project-section{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+.card2{
+    font-size: 1.5rem;
+    color: var(--color-semi-font);
+}
+
+.small-info{
+    font-size: 1rem;
+    color: white;
+}
+
+.img-container{
+    position: relative;
+}
+
+.project-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.625rem;
+}
+
+.img-overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.625rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(85,85,85,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+
+.img-overlay:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.625rem;
+    position: absolute;
+    background-color: rgba(85,85,85,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.img-info1{
+    color: white;
+}
+
+.btn2{
+    padding-top: 0.625rem;
+    border: 0.1rem solid var(--color-semi-font);
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: var(--color-black);
+    color: white;
+}
+
+.btn2:hover,
+.btn2:focus,
+.btn2:active{
+    padding-top: 0.625rem;
+    border: 0.1rem solid var(--color-semi-font);
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    color: var(--color-black);
+    transform: scale(1.2);
+    transition: all .7s ease-in-out;
+}
+
+.project-card{
+    width: 100%;
+    height: 100%;
+    border: 0.1rem solid var(--color-black);
+    border-radius: 0.625rem;
+}
+
+@media all and (max-width : 667px) {
+    .formobile-margin{
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,23 @@
+<div class="container skills-section" id="skills-section">
+    <div class="row text-center skills-intro-info">
+        <div class="col-md-12">
+            <h2 class="card2">Explore My</h2>
+            <p class="card1">Skills</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 margin-card" *ngFor="let skill of skillsArr">
+            <div class="card">
+                <div class="card-body">
+                    <div class="icon-skills">
+                        <div class="skills-set">
+                            <i class="fa-solid fa-circle-check fa-2x mr-2"></i>
+                            <p class="card1 m-0">{{skill.name}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

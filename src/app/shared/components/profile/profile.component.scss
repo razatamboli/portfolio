@@ -1,0 +1,138 @@
+
+.bg-profile{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 80%;
+    position: relative;
+}
+
+.profile-overlay{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    border-radius: 80%;
+}
+
+.center-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hey-info{
+    color: var(--color-semi-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.name-info{
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--color-main-font);
+}
+
+.posi-info{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-semi-font);
+}
+
+.two-btns{
+    margin: 0 1rem 1rem 1rem;
+}
+
+.btn2{
+    border: 0.1rem solid var(--color-semi-font);
+    height: 3rem;
+    border-radius: 1.5rem;
+}
+
+.download-btn{
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    margin-right: 1rem;
+    color: var(--color-main-font);
+}
+
+.download-btn:hover,
+.download-btn:focus,
+.download-btn:active{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    margin-right: 1rem;
+    background-color: black;
+    transform: scale(1.2);
+    color: white;
+    transition: all .7s ease-in-out;
+}
+
+.contact-btn{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    margin-left: 1rem;
+    background-color: var(--color-main-font);
+    color: white;
+}
+
+.contact-btn:hover,
+.contact-btn:focus,
+.contact-btn:active{
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    margin-left: 1rem;
+    background-color: white;
+    color: var(--color-main-font);
+    transform: scale(1.2);
+    transition: all .7s ease-in-out;
+}
+
+@media all and (max-width: 992px){
+    .download-btn{
+        padding-top: 0;
+    }
+}
+
+// upside-arrow
+
+.arrow-icon{
+    padding: 0.2rem;
+    text-decoration: none;
+    color: var(--color-main-font);
+}
+
+.arrow-icon:hover,
+.arrow-icon:focus,
+.arrow-icon:active{
+    padding: 0.2rem;
+    text-decoration: none;
+    border: 0.1rem solid;
+    border-radius: 25%;
+    color: var(--color-main-font);
+    transform: scale(1.1);
+    transition: all 0.4s linear;
+}
+
+.visible{
+    position: fixed;
+    right: 25px;
+    bottom: 50px;
+}
+
+@media all and (max-width: 1050px) {
+    .visible{
+        display: none;
+    }
+}
